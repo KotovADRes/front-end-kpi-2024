@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+body.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body.float {
+    float: left;
+}
+
+
+body div {
+    overflow: hidden;
+}
+
+
+img.vertical {
+    height: 100%;
+}
+
+img.horizontal {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 34px;
+    max-height: calc(100% - 40px);
+    overflow-y: auto;
+}
+
+
+body.float div.top-left {
+    float: left;
+}
+
+body.float div.top-right {
+    float: right;
+}
+
+
+body div.top-left {
+    width: 25%;
+    height: 66%;
+    background-color: aqua;
+}
+
+body div.top-right {
+    width: 75%;
+    height: 66%;
+    background-color: mistyrose;
+}
+
+body div.medium-full {
+    width: 100%;
+    height: 17%;
+    background-color: coral;
+}
+
+body div.bottom-full {
+    width: 100%;
+    height: 17%;
+    background-color: gold;
+}
