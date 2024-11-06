@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-color: #343A40;
+}
+
+.top-elements {
+    padding-bottom: 20px;
+    background-color: #808080;
+}
+
+.top-elements h1 {
+    margin-bottom: 0;
+}
+
+.download-button {
+    width: min-content;
+    padding: 12px 22px;
+    font-size: 14pt;
+    background-color: #343A40;
+    border-radius: 8px;
+    border: solid #585B5E 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.download-button:hover {
+    background-color: #43474A;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+.profile-card {
+    width: calc(100px + 10vw);
+    color: white;
+}
+
+.profile-card img {
+    width: 100%;
+}
+
+.profile-card .image-wrapper {
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.profile-card table {
+    width: 100%;
+    line-height: 3.5;
+    text-align: left;
+}
