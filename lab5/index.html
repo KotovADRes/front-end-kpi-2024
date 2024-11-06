@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Котов А.Д. ІК-23</title>
+        <link rel="stylesheet" href="style.css">  
+    </head>
+    <body>
+        <div class="form-wrapper">
+            <form>
+                <label>
+                    <input type="text" id="fullname" data-title="ПІБ" placeholder="Ткачук Т.Т.">
+                </label>
+                <label>
+                    <input type="text" id="phone" data-title="Телефон" placeholder="(050)-456-78-90">
+                </label>
+                <label>
+                    <input type="text" id="idcard" data-title="ID-картка" placeholder="AA №123456">
+                </label>
+                <label>
+                    <input type="text" id="birthdate" data-title="Дата народження" placeholder="01.01.2000">
+                </label>
+                <label>
+                    <input type="text" id="email" data-title="E-mail" placeholder="example@example.com">
+                </label>
+                <button type="submit">Відправити</button>
+            </form>
+            <div class="form-output">
+                <h2>Останні введені дані</h2>
+                <table id="formoutput"></table>
+            </div>
+        </div>
+
+        <div class="table-grid-wrapper">
+            <input type="color" id="colorpicker">
+            <table id="tablegrid"></table>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

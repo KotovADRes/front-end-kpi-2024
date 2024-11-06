@@ -1,0 +1,63 @@
+body {
+    padding: 40px;
+}
+
+.form-wrapper {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 1fr 1fr;
+    width: calc(50vw + 200px);
+    margin-bottom: 150px;
+}
+
+.form-wrapper form {
+    display: grid;
+    gap: 20px;
+}
+
+.form-wrapper form label {
+    display: grid;
+    gap: 10px;
+}
+
+.form-wrapper form input[type="text"] {
+    font-size: 12pt;
+    padding: 8px 12px;
+}
+
+.form-wrapper form button[type="submit"] {
+    padding: 10px 0;
+    font-size: 12pt;
+}
+
+.form-output h2 {
+    margin: 0;
+}
+
+.form-output #formoutput td {
+    padding-right: 10px;
+}
+
+
+.table-grid-wrapper {
+    width: fit-content;
+}
+
+.table-grid-wrapper #colorpicker {
+    width: 100%;
+    margin: 20px 0;
+}
+
+table#tablegrid {
+    border-collapse: collapse;
+}
+
+table#tablegrid td {
+    cursor: default;
+    user-select: none;
+    padding: 18px;
+    border: solid;
+    font-size: 16pt;
+    text-align: center;
+}
+
