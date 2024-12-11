@@ -1,0 +1,14 @@
+.blue {
+    cursor: default;
+    background-color: blue;
+    color: white;
+}
+
+.green {
+    cursor: default;
+    background-color: lime;
+}
+
+.hidden {
+    display: none;
+}
